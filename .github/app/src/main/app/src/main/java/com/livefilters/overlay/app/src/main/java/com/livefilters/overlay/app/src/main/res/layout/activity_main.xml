@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1a1a2e">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎨 LIVE FILTERS"
+        android:textSize="36sp"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="▶ Запустить"
+        android:textSize="18sp"
+        android:backgroundTint="#4CAF50"/>
+
+    <Button
+        android:id="@+id/stopBtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="⏹ Остановить"
+        android:textSize="18sp"
+        android:backgroundTint="#f44336"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="После запуска сверните приложение"
+        android:textColor="#888888"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
